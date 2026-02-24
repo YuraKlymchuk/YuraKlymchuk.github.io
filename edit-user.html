@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>edit user</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-body">
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="nav-link" href="users.html">back to users</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="edit-section">
+      <form class="edit-form" action="user-info.html">
+        <h2 class="form-title">edit user details</h2>
+        
+        <div class="form-group">
+          <label class="form-label" for="edit-username">username</label>
+          <input class="form-input" type="text" id="edit-username" value="john_doe">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="edit-password">new password (leave blank to keep current)</label>
+          <input class="form-input" type="password" id="edit-password">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="edit-role">role</label>
+          <select class="form-input" id="edit-role">
+            <option value="regular">regular</option>
+            <option value="admin" selected>admin</option>
+          </select>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn-primary" type="submit">save changes</button>
+          <a class="btn-secondary" href="user-info.html">cancel</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>

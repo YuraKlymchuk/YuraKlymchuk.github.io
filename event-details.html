@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>event details</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-body">
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="nav-link" href="events.html">calendar</a>
+      <a class="nav-link" href="index.html">logout</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <article class="event-full-details">
+      <header class="event-header">
+        <h2 class="event-title">web development meetup</h2>
+        <p class="event-meta">date: october 25, 2026 | creator: john_doe</p>
+      </header>
+      
+      <section class="event-description-box">
+        <p class="event-text">join us for a deep dive into modern frontend architectures and css preprocessors.</p>
+      </section>
+
+      <div class="event-controls">
+        <a class="btn-secondary" href="event-form.html">edit event</a>
+        <button class="btn-danger" type="button">delete event</button>
+      </div>
+    </article>
+
+    <section class="invite-section">
+      <h3 class="section-subtitle">invite participants</h3>
+      <form class="invite-form">
+        <div class="form-group flex-group">
+          <label class="form-label" for="invite-user">select user to invite:</label>
+          <select class="form-input" id="invite-user">
+            <option value="jane_smith">jane smith</option>
+            <option value="alex_dev">alex dev</option>
+          </select>
+          <button class="btn-primary" type="button">send invite</button>
+        </div>
+      </form>
+
+      <div class="joined-users-list">
+        <h4 class="list-title">joined participants (2)</h4>
+        <ul class="participants-list">
+          <li class="participant-item">jane smith</li>
+          <li class="participant-item">mark twain</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

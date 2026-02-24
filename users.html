@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>users management</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-body">
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="nav-link" href="events.html">events</a>
+      <a class="nav-link" href="users.html">users</a>
+      <a class="nav-link" href="index.html">logout</a>
+    </nav>
+  </header>
+
+  <div class="layout-sidebar-main">
+    <aside class="sidebar-menu">
+      <ul class="sidebar-list">
+        <li class="sidebar-item"><a class="nav-link" href="#">admin dashboard</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <section class="users-list-section">
+        <h2 class="section-title">users listing</h2>
+        <button class="btn-primary">add new user</button>
+
+        <article class="user-card">
+          <h3 class="user-name">john doe</h3>
+          <p class="user-role">role: admin</p>
+          <button class="btn-secondary">edit user</button>
+          <button class="btn-danger">delete user</button>
+        </article>
+
+        <article class="user-card">
+          <h3 class="user-name">jane smith</h3>
+          <p class="user-role">role: regular</p>
+          <button class="btn-secondary">edit user</button>
+          <button class="btn-danger">delete user</button>
+        </article>
+      </section>
+
+      <dialog class="create-user-dialog" open>
+        <form class="dialog-form">
+          <h3 class="dialog-title">create user dialog</h3>
+          
+          <div class="form-group">
+            <label class="form-label" for="new-username">username</label>
+            <input class="form-input" type="text" id="new-username">
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="new-password">password</label>
+            <input class="form-input" type="password" id="new-password">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="confirm-password">confirm password</label>
+            <input class="form-input" type="password" id="confirm-password">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="user-role">role</label>
+            <select class="form-input" id="user-role">
+              <option value="regular">regular</option>
+              <option value="admin">admin</option>
+            </select>
+          </div>
+
+          <div class="dialog-actions">
+            <button class="btn-primary" type="button">ok</button>
+            <button class="btn-secondary" type="button">cancel</button>
+          </div>
+        </form>
+      </dialog>
+    </main>
+  </div>
+
+</body>
+</html>

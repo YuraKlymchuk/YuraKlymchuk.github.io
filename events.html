@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My events calendar</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-body">
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="nav-link" href="events.html">my events</a>
+      <a class="nav-link" href="index.html">logout</a>
+    </nav>
+  </header>
+
+<main class="main-content">
+    <section class="events-section">
+      <header class="section-header">
+        <h2 class="section-title">calendar of events</h2>
+        <a class="btn-primary" href="event-form.html">create new event</a>
+      </header>
+
+      <div class="events-grid">
+        <article class="event-card">
+          <img class="event-image" src="assets/event-placeholder.jpg" alt="people gathering at tech conference">
+          <div class="event-details">
+            <h3 class="event-title">web development meetup</h3>
+            <p class="event-date">october 25, 2026</p>
+            <p class="event-status">status: created by me</p>
+            
+            <div class="card-actions">
+              <a class="btn-secondary" href="event-form.html">edit</a>
+              <button class="btn-danger" type="button">delete</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img class="event-image" src="assets/party-placeholder.jpg" alt="friends celebrating at a party">
+          <div class="event-details">
+            <h3 class="event-title">university graduation party</h3>
+            <p class="event-date">june 30, 2026</p>
+            <p class="event-status">status: joined</p>
+            
+            <div class="card-actions">
+              <a class="btn-secondary" href="event-details.html">view details</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p class="footer-text">event calendar application 2026</p>
+  </footer>
+
+</body>
+</html>
