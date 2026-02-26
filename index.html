@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - event calendar</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page-body">
+
+  <header class="main-header">
+    <h1 class="logo-title">Event calendar service</h1>
+  </header>
+
+  <main class="main-content">
+    <div class="error-notification">
+      <p class="error-text">Invalid credentials provided. please try again.</p>
+    </div>
+
+    <section class="login-section">
+      <form class="login-form" action="events.html">
+        <h2 class="form-title">Sign in</h2>
+        
+        <div class="form-group">
+          <label class="form-label" for="username">Username</label>
+          <input class="form-input" type="text" id="username" name="username">
+          <span class="validation-error">Username is required</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <input class="form-input" type="password" id="password" name="password">
+        </div>
+
+        <button class="btn-primary" type="submit">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <p class="footer-text">Calendar application</p>
+  </footer>
+
+</body>
+</html>
