@@ -293,3 +293,240 @@ textarea.form-input {
   margin-top: 5px;
   display: block;
 }
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.logo-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: $color-primary;
+}
+
+.main-footer {
+  background-color: $color-white;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid $color-border;
+  margin-top: auto;
+}
+
+.footer-text {
+  color: $color-text;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.layout-sidebar-main {
+  display: flex;
+  flex-grow: 1;
+
+  @include tablet-down {
+    flex-direction: column;
+  }
+}
+
+.sidebar-menu {
+  width: 250px;
+  background-color: $color-white;
+  border-right: 1px solid $color-border;
+  padding: 20px;
+
+  @include tablet-down {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid $color-border;
+  }
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 15px;
+}
+
+.users-list-section,
+.user-profile-section {
+  padding: 20px 40px;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.user-card {
+  background-color: $color-white;
+  padding: 15px 20px;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.user-name {
+  margin: 0;
+  flex-grow: 1;
+  min-width: 150px;
+}
+
+.user-role {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.profile-card {
+  background-color: $color-white;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid $color-border;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid $color-primary;
+}
+
+.profile-info {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-label {
+  font-weight: bold;
+  color: $color-primary;
+  margin-right: 10px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  
+  .btn-primary, .btn-danger {
+    flex-grow: 1;
+  }
+}
+
+dialog {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  max-width: 500px;
+  width: 90%;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+  padding: 30px;
+}
+
+.dialog-title {
+  margin-top: 0;
+  color: $color-primary;
+}
+
+.dialog-text {
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.event-full-details,
+.invite-section {
+  background-color: $color-white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  border: 1px solid $color-border;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.event-header {
+  border-bottom: 1px solid $color-border;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.event-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.event-description-box {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.event-controls {
+  display: flex;
+  gap: 15px;
+}
+
+.section-subtitle {
+  margin-top: 0;
+  color: $color-primary;
+}
+
+.joined-users-list {
+  margin-top: 30px;
+}
+
+.list-title {
+  margin-bottom: 15px;
+  border-bottom: 1px solid $color-border;
+  padding-bottom: 5px;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.participant-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+  
+  &::before {
+    content: '•';
+    color: $color-primary;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  }
+}
