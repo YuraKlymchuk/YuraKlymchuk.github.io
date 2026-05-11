@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "title": "Web development meetup",
+    "date": "2026-10-25T18:00:00",
+    "status": "created by me",
+    "creator": "yurii_admin",
+    "description": "Join us for a deep dive into modern frontend architectures and css preprocessors.",
+    "image": "assets/event-placeholder.jpg"
+  },
+  {
+    "id": 102,
+    "title": "University graduation party",
+    "date": "2026-06-30T20:00:00",
+    "status": "joined",
+    "creator": "jane_smith",
+    "description": "Lets celebrate the end of this part of life.",
+    "image": "assets/party-placeholder.jpg"
+  },
+  {
+    "id": 103,
+    "title": "Local Hackathon 2026",
+    "date": "2026-11-12T09:00:00",
+    "status": "not joined",
+    "creator": "alex_dev",
+    "description": "A 48-hour hackathon focused on building AI tools for education.",
+    "image": "assets/event-placeholder.jpg"
+  }
+]

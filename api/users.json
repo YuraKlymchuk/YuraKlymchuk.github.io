@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "username": "yurii_admin",
+    "role": "admin",
+    "status": "active",
+    "registeredDate": "2024-09-01"
+  },
+  {
+    "id": 2,
+    "username": "jane_smith",
+    "role": "regular",
+    "status": "active",
+    "registeredDate": "2025-11-15"
+  },
+  {
+    "id": 3,
+    "username": "alex_dev",
+    "role": "regular",
+    "status": "inactive",
+    "registeredDate": "2026-01-10"
+  }
+]

@@ -21,12 +21,12 @@
       <h2 class="section-title">user profile</h2>
       
       <article class="profile-card">
-        <img class="profile-avatar" src="assets/profile-avatar.png" alt="user profile avatar image">
+        <img id="profile-avatar-img" class="profile-avatar" src="assets/profile-avatar.png" alt="user profile avatar image">
         <div class="profile-info">
-          <p class="info-row"><span class="info-label">Username:</span> john_doe</p>
-          <p class="info-row"><span class="info-label">Role:</span> admin</p>
-          <p class="info-row"><span class="info-label">Status:</span> active</p>
-          <p class="info-row"><span class="info-label">Registered:</span> january 15, 2026</p>
+          <p class="info-row"><span class="info-label">Username:</span> <span id="profile-username">...</span></p>
+          <p class="info-row"><span class="info-label">Role:</span> <span id="profile-role">...</span></p>
+          <p class="info-row"><span class="info-label">Status:</span> <span id="profile-status">...</span></p>
+          <p class="info-row"><span class="info-label">Registered:</span> <span id="profile-registered">...</span></p>
         </div>
         
         <div class="profile-actions">
@@ -52,5 +52,6 @@
     <p class="footer-text">calendar application</p>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>

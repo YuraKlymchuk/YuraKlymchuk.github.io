@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "username": "yurii_admin",
+  "role": "admin",
+  "status": "active",
+  "registeredDate": "2024-09-01T10:30:00",
+  "avatar": "assets/profile-avatar.png",
+  "preferences": {
+    "notifications": true,
+    "theme": "light"
+  }
+}
