@@ -28,19 +28,8 @@
         <h2 class="section-title">Users listing</h2>
         <button class="btn-primary">Add new user</button>
 
-        <article class="user-card">
-          <h3 class="user-name"><a href="user-info.html" style="text-decoration: none; color: inherit;">John Doe</a></h3>
-          <p class="user-role">Role: admin</p>
-          <button class="btn-secondary">Edit user</button>
-          <button class="btn-danger">Delete user</button>
-        </article>
-
-        <article class="user-card">
-          <h3 class="user-name"><a href="user-info.html" style="text-decoration: none; color: inherit;">Jane Smith</a></h3>
-          <p class="user-role">Role: Regular</p>
-          <button class="btn-secondary">Edit user</button>
-          <button class="btn-danger">Delete user</button>
-        </article>
+        <div id="users-list-container">
+            </div>
       </section>
 
       <dialog class="create-user-dialog" open>
@@ -79,5 +68,6 @@
     </main>
   </div>
 
+  <script src="js/main.js"></script>
 </body>
 </html>

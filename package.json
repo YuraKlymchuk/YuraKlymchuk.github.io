@@ -1,0 +1,27 @@
+{
+  "name": "yuraklymchuk.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuraKlymchuk/YuraKlymchuk.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YuraKlymchuk/YuraKlymchuk.github.io/issues"
+  },
+  "homepage": "https://github.com/YuraKlymchuk/YuraKlymchuk.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
